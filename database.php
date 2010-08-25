@@ -1,0 +1,7 @@
+<?php
+
+	#host
+	#user
+	#pass
+
+?>
