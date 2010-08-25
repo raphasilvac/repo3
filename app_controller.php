@@ -13,7 +13,7 @@ class AppController extends Controller
 		
 		/** Load non default helpers */
 		//	soh quero ver...
-		$this->helpers[] = "HtmlExtend";
+		$this->helpers[0] = "Htmlextend";
 	}
 
 
