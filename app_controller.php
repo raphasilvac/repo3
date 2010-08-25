@@ -14,4 +14,10 @@ class AppController extends Controller
 		/** Load non default helpers */
 		$this->helpers[] = "HtmlExtend";
 	}
+
+
+	public function checkStatus()
+	{	
+		return Configure::read("app_status");
+	}
 }
