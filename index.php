@@ -1,5 +1,6 @@
 <?php
 /**
+ * Teste do Raphael
  * Requests collector.
  *
  *  This file collects requests if:
