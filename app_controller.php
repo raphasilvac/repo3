@@ -12,7 +12,8 @@ class AppController extends Controller
 		$this->__setLayoutSettings();
 		
 		/** Load non default helpers */
-		$this->helpers[] = "HtmlExtendBest";
+
+		$this->helpers[] = "HtmlextendBest";
 	}
 
 
