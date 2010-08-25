@@ -93,4 +93,5 @@ Inflector::rules("plural", array(
 
 /** Some constants */
 
-define("ADSHOSPITALAR", "ADSHOSPITALAR");
+define("ADSGithub", "ADSGithub");
+

@@ -21,4 +21,10 @@ class AppController extends Controller
 	{	
 		return Configure::read("app_status");
 	}
+
+
+	public function isAdmin()
+	{
+		return $this->Auth->user("admin");
+	}
 }
